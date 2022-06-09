@@ -29,7 +29,7 @@ Refer the HP-GAN github for their original source code. HP-GAN programs have bee
 
 Following are the main programs files developed for this project
 
-**train-mycode.py**  main driver code and model configuration, data preparation, training and testing. Note MPJPE and P-MPJPE code is adapted from MHFormer project https://github.com/Vegetebird/MHFormer  
+**train-code.py**  main driver code and model configuration, data preparation, training and testing. Note MPJPE and P-MPJPE code is adapted from MHFormer project https://github.com/Vegetebird/MHFormer  
 **myPlotter.py**  custom plotting of training losses and visualisation of 3D skeletons and accuracy measures  
 **NNetworks.py**	Contains the various RNN and Critic network configurations developed during the project. Also includes custom Keras layers for various functions such as, adding noise as z dimension of 2D poses.  In addition, includes generation functions for test rendering and 2D data normalisation functions.  
 **split_h36_data.py**	 Human3.6M dataset pre processing, modified for cdf formats  
