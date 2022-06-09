@@ -2,7 +2,11 @@
 
 This repo is the implementation of my CSIT999 Research Project. “Human Pose 2D to 3D Uplift and Prediction” a copy of which is included in this repo.
 
+The first image is 2D human skeleton (first line) representations uplifted to 3D represenation (2nd line). Meam Per Join Position Error (MPJPE) is the mean distance from the expected joint positions in three dimensions in millimetres.
 ![2D to 3D Uplift](images/top-uplift.png)
+
+This next image is 2D (1st line) to 3D uplift and prediction (2nd line) of future motion.
+![2D to 3D Prediction](images/top-prediction-h36M.png)
 
 ## Dependencies
 - Tensorflow 
